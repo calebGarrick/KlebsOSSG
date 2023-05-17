@@ -21,3 +21,13 @@ I'm starting off by installing the [smart glasses manager app](https://github.co
 Another bit of a gut-punch was that the microcontroller I got(TinyS3) was incompatible with the display I got as it lacks a DAC(digital audio converter). For anyone following please ensure your board of choice can output composite video or has an onboard dac.
 
 Now that SGM is on my phone, I can flash the OSSG firmware to my s3 and play with the comms side of things.
+
+5/14/23
+
+I struggled to get the OSSG firmware installed on my tinyS3, and since I had ordered a TinyPICO I just waited for that to arrive.
+
+Note: Part of my struggle may have ben missing dependencies from me just copying in the firmware folder from the OSSG repo. If anyone is following this, do yourself a favor and just use the clone of OSSG to flash. If you want to make changes you can always make a branch.
+
+5/17/23
+
+Over the weekend I got a capture card and a TinyPICO. Everything built and uploaded successfully! I spliced an old AV cable to my board and hooked it up to a usb capture card. Sure enough I got a prompt for a command when I pulled it up in OBS!
