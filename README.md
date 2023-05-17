@@ -31,3 +31,4 @@ Note: Part of my struggle may have ben missing dependencies from me just copying
 5/17/23
 
 Over the weekend I got a capture card and a TinyPICO. Everything built and uploaded successfully! I spliced an old AV cable to my board and hooked it up to a usb capture card. Sure enough I got a prompt for a command when I pulled it up in OBS!
+![image](https://github.com/calebGarrick/KlebsOSSG/assets/55569732/06e197be-db11-4cac-a805-0ddf35ed994b)
